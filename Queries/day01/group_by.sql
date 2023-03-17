@@ -7,7 +7,7 @@ where JOB_ID='IT_PROG';
 
 ----------------------------------------------------------------
 -- get me average salary for each job_id
-select JOB_ID,avg(SALARY),count(*),sum(SALARY) from EMPLOYEES
+select JOB_ID,avg(SALARY),count(*) from EMPLOYEES
 group by JOB_ID;
 ----------------------------------------------------------------
 
