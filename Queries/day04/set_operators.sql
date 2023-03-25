@@ -51,3 +51,9 @@ select  FIRST_NAME,count(*)
 from EMPLOYEES
 group by FIRST_NAME
 having count(*)>1;
+
+select * from DEPARTMENTS;
+
+select EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY
+from EMPLOYEES
+where ROWNUM<6;
