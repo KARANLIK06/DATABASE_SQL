@@ -54,6 +54,6 @@ having count(*)>1;
 
 select * from DEPARTMENTS;
 
-select EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY
+select FIRST_NAME,LAST_NAME,SALARY,JOB_ID
 from EMPLOYEES
-where ROWNUM<6;
+where ROWNUM<2;
