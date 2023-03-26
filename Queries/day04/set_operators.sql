@@ -57,3 +57,4 @@ select * from DEPARTMENTS;
 select FIRST_NAME,LAST_NAME,SALARY,JOB_ID
 from EMPLOYEES
 where ROWNUM<2;
+
